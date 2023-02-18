@@ -9,7 +9,7 @@ By the end of this whole project you will have seen the following elements:
     * Database creation, maintenance and management
 * Backend
     * Database CRUD (Create, Read, Update, Delete)
-    * Data modeling and ORM (Object Relational Mapping) usage
+    * Data modeling and ORM (Object Relational Mapping) usage with Laravel's Eloquent
     * Authentication, authorization and the difference between the two
     * Middleware
     * Cookie and session management
