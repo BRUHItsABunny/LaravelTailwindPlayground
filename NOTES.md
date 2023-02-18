@@ -1,3 +1,24 @@
+### The goal
+
+By the end of this whole project you will have seen the following elements:
+
+* Workflow
+    * Installing the necessary tooling
+    * Creating a Laravel project with TailwindCSS support
+    * Interacting with the VCS (Version Control System, GIT)
+    * Database creation, maintenance and management
+* Backend
+    * Database CRUD (Create, Read, Update, Delete)
+    * Data modeling and ORM (Object Relational Mapping) usage
+    * Authentication, authorization and the difference between the two
+    * Middleware
+    * Cookie and session management
+    * Data sanitation
+* Frontend
+    * HTML
+    * TailwindCSS styling
+    * Efficiently using Laravel's Blade engine and reusing elements
+
 ### Getting ready
 
 #### Install Choco
@@ -92,3 +113,5 @@ In one of them you need to run: `php artisan serve`
 In the other you need to run: `npm run dev`
 
 PHP Artisan will run the code on `http://localhost:8000` by default, quick link [here](http://localhost:8000)
+
+You now have a running Laravel project with TailwindCSS!
