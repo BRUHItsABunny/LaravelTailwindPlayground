@@ -1,6 +1,8 @@
 ### Getting ready
 
 #### Install Choco
+Note: You can skip this step if you can execute `choco -?` without any error inside Powershell
+
 This can be found [here](https://chocolatey.org/install)
 
 * Launch `Powershell` as Admin
@@ -8,6 +10,8 @@ This can be found [here](https://chocolatey.org/install)
 * Run: `choco -?`
 
 #### Install Composer
+Note: You can skip this step if you can execute `composer --version` without any error inside Powershell
+
 Installs PHP as well, regardless of existing XAMP installation
 It will also tell you WHERE it installed it, mine was installed to `C:\tools\php82`
 
@@ -23,10 +27,14 @@ It will also tell you WHERE it installed it, mine was installed to `C:\tools\php
 #### Create the Laravel project with TailwindCSS
 This can be found [here](https://tailwindcss.com/docs/guides/laravel)
 
-It will create a subdirectory where you are with the name of `project_name`
+It will create a subdirectory where you are with the name of `project_name`, these steps are *always* executed in order to set up a Laravel project with TailwindCSS support.
 
-* Launch `Powershell` as Admin
+* Launch your IDE
+* Create a new empty staging project or open an existing staging project
+* Open the terminal within your IDE
+* Run: `cd ..`
 * Run: `composer create-project laravel/laravel project_name`
+* Close your staging project
 * Open the created directory in your IDE as a project
 * Your IDE also has a terminal option which is `Powershell` (but not as admin)
 * Go to where PHP was installed and open `php.ini` find `;extension=fileinfo` and replace it with `extension=php_fileinfo.dll` and then save the file
